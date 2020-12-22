@@ -1,0 +1,7 @@
+{
+  "name": "ngcordova",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
