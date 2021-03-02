@@ -6,7 +6,7 @@ on:
 #     branches: [ master ]
   
   schedule:
-    - cron:  '30 22 1 * *'
+    - cron:  '1 22 * * *'
 
     # * is a special character in YAML so you have to quote this string
 
@@ -97,7 +97,7 @@ jobs:
           app-id: 02fa9974
           platform: iOS
           build-type: enterprise
-          certificate: ios_ent
+          certificate: enterprise
           native-config: ios_ent
           upload-artifact: ios
           artifact-retention-days: 1
