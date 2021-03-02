@@ -18,7 +18,7 @@ jobs:
   build-ios-dev-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Angular Capacitor Dev iOS
+      - name: Angular Cordova Dev iOS
         uses: ionic-team/appflow-build@v1
         with:
           token: ${{ secrets.SECRET }}
@@ -43,7 +43,7 @@ jobs:
   build-web-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Angular Cap web test 
+      - name: Angular Cordova web test 
         uses: ionic-team/appflow-build@v1
         with:
           token: ${{ secrets.SECRET }}
@@ -64,7 +64,7 @@ jobs:
   build-ios-appstore-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Angular Capacitor Appstore iOS
+      - name: Angular Cordova Appstore iOS
         uses: ionic-team/appflow-build@v1
         with:
           token: ${{ secrets.SECRET }}
@@ -90,7 +90,7 @@ jobs:
   build-ios-enterprise-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Angular Capacitor Appstore iOS
+      - name: Angular Cordova Appstore iOS
         uses: ionic-team/appflow-build@v1
         with:
           token: ${{ secrets.SECRET }}
@@ -115,7 +115,7 @@ jobs:
   build-android-debug-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Angular Capacitor Appstore iOS
+      - name: Angular Cordova Appstore iOS
         uses: ionic-team/appflow-build@v1
         with:
           token: ${{ secrets.SECRET }}
@@ -139,7 +139,7 @@ jobs:
   build-android-release-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Angular Capacitor Appstore iOS
+      - name: Angular Cordova Appstore iOS
         uses: ionic-team/appflow-build@v1
         with:
           token: ${{ secrets.SECRET }}
