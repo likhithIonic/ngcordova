@@ -2,11 +2,11 @@ name: Angular + Cordova Test
 # Controls when the action will run and triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-#   push:
-#     branches: [ master ]
+  push:
+    branches: [ master ]
   
-#   schedule:
-#     - cron:  '1 22 * * *'
+  schedule:
+    - cron:  '1 22 * * *'
 
     # * is a special character in YAML so you have to quote this string
 
@@ -71,7 +71,7 @@ jobs:
           app-id: 02fa9974
           platform: iOS
           build-type: app-store
-          certificate: prod
+          certificate: ios_prod
           native-config: ios_prod
           upload-artifact: ios-prod
           artifact-retention-days: 1
