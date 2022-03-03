@@ -1,6 +1,6 @@
 name: Angular + Cordova Test 
 # Controls when the action will run and triggers the workflow on push or pull request
-# events but only for the master branch
+# Events but only for the master branch
 on:
   push:
     branches: [ master ]
