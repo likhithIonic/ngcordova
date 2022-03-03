@@ -3,7 +3,7 @@ name: Angular + Cordova Test
 # events but only for the master branch
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   
   schedule:
     - cron:  '1 22 * * *'
